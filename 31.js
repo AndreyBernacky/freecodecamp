@@ -3,7 +3,7 @@
 function nextInLine(arr, item) {
 
   arr.push(item);
-  arr.shift();
+  item = arr.shift();
   return item;
 }
 
